@@ -15,7 +15,7 @@ setting up fluxcd on kubernetes Kind cluster locally
  Use the documentation here to setup and create your local cluster: https://kind.sigs.k8s.io/docs/user/quick-start/#installing-from-source
  
 #### For my windows distribution,
- <p> go install sigs.k8s.io/kind@v0.11.1 command worked for me!!!
+ <p> ```go install sigs.k8s.io/kind@v0.11.1 ``` command worked for me!!!
  
  ![image](https://user-images.githubusercontent.com/17796294/146667928-85b705b0-25b4-47d0-b1cf-1b3f2e9a8a97.png)
 
@@ -32,4 +32,8 @@ https://fluxcd.io/docs/installation/#install-the-flux-cli
 
  ![image](https://user-images.githubusercontent.com/17796294/146667960-632200fe-9308-47c6-a0da-84c5fc50b901.png)
 
- Choco install flux
+ ```Choco install flux```
+ 
+ ### Install Flux on your Cluster ( In this case it running locally using Kind)
+ * We will guthub repo. See official documentation when using other Git repos: https://fluxcd.io/docs/installation/
+ 
