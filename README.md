@@ -34,6 +34,6 @@ https://fluxcd.io/docs/installation/#install-the-flux-cli
 
  ```Choco install flux```
  
- ### Install Flux on your Cluster ( In this case it running locally using Kind)
- * We will guthub repo. See official documentation when using other Git repos: https://fluxcd.io/docs/installation/
+ ### Install Flux on your Cluster ( In this case it is running locally using Kind)
+ * We will github repo. See official documentation when using other Git repos: https://fluxcd.io/docs/installation/
  
